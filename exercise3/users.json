@@ -1,0 +1,76 @@
+{
+  "servers": {
+    "srv001": {
+      "enable": [
+        "user1"
+      ],
+      "enable_roles": [
+        "devops"
+      ]
+    },
+    "srv002": {
+      "enable": [
+        "user2",
+        "user10",
+        "user11"
+      ],
+      "enable_roles": [
+        "devops",
+        "infra"
+      ]
+    },
+    "srv003": {
+      "enable_roles": [
+        "devops_admins"
+      ]
+    }
+  },
+  "roles": {
+    "devops": {
+      "enable": [
+        "user10",
+        "user11",
+        "user12"
+      ],
+      "enable_roles": [
+        "devops_admins",
+        "infra"
+      ]
+    },
+    "infra": {
+      "enable": [
+        "user20",
+        "user21",
+        "user22"
+      ],
+      "enable_roles": [
+        "generic"
+      ]
+    },
+    "devops_admins": {
+      "enable": [
+        "user1",
+        "user12"
+      ],
+      "enable_roles": [
+        "infra"
+      ]
+    },
+    "generic": {
+      "enable_roles": [
+        "generic2"
+      ]
+    },
+    "generic2": {
+      "enable_roles": [
+        "generic3"
+      ]
+    },
+    "generic3": {
+      "enable_roles": [
+        "infra",
+        "generic"
+      ]
+    }
+  }
+}
