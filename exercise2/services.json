@@ -1,0 +1,11 @@
+[ { "name": "service-1"
+  , "command": "echo service-1"
+  }
+, { "name": "service-2"
+  , "command": "echo service-2"
+  }
+, { "name": "service-3"
+  , "command": "echo service-3"
+  }
+]
+
