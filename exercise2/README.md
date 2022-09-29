@@ -28,7 +28,6 @@ so you can see intermediate results even if the evaluation crashes at a later po
    new `services.nix` modules.
 1. Have a look at this new module, it contains a skeleton implementation that
    you will be completing.
-   ```
 1. Have a look at the `services.json` file, which defines a bunch of services.
 1. Now it's your turn.
    You will read the JSON file using Nix and define the services.
