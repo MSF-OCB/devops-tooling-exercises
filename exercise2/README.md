@@ -24,7 +24,7 @@ so you can see intermediate results even if the evaluation crashes at a later po
 ## Steps
 
 1. Clone this repository and go to the `exercise2` directory.
-1. Have a look at the `configuration.nix` file which is not importing the
+1. Have a look at the `configuration.nix` file which is now importing the
    new `services.nix` modules.
 1. Have a look at this new module, it contains a skeleton implementation that
    you will be completing.
