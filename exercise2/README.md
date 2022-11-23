@@ -25,7 +25,7 @@ so you can see intermediate results even if the evaluation crashes at a later po
 
 1. Clone this repository and go to the `exercise2` directory.
 1. Have a look at the `configuration.nix` file which is now importing the
-   new `services.nix` modules.
+   new `services.nix` module.
 1. Have a look at this new module, it contains a skeleton implementation that
    you will be completing.
 1. Have a look at the `services.json` file, which defines a bunch of services.
